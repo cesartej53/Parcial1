@@ -1,11 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css.css">
     <title>Document</title>
 </head>
 <body>
@@ -15,10 +16,10 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div class="navbar-nav">
-            <a class="nav-item nav-link" href="index.html">SUR OCCIDENTE COLOMBIANO APP</a>
-            <a class="nav-item nav-link" href="#">VALLE</a>
-            <a class="nav-item nav-link" href="#">CAUCA</a>
-            <a class="nav-item nav-link" href="#">NARIÑO</a>
+            <a style="color: white;" class="nav-item nav-link" href="index.html">SUR OCCIDENTE COLOMBIANO APP</a>
+            <a id="letra" class="nav-item nav-link" href="valle/valle.html">VALLE</a>
+            <a id="letra" class="nav-item nav-link" href="cauca/cauca.html">CAUCA</a>
+            <a id="letra" class="nav-item nav-link" href="nariño/nariño.html">NARIÑO</a>
           </div>
         </div>
       </nav>
@@ -26,27 +27,25 @@
         <div id="titu" class="titulo">
             <h4>NARIÑO</h4>
         </div>
-        <div id="imgsuroccidente">
-            <img src="img/NARIÑO.jpg" alt="NARIÑO">
-        </div>
+        <div id="imgsuroccidente" class="hoja">
+            <img width="80%" src="img/NARIÑO.jpg" alt="NARIÑO">
+        
         <div>
-            <p>Nariño es uno de los treinta y dos departamentos que, junto con Bogotá, Distrito Capital, 
+            <p id="parrafo">Nariño es uno de los treinta y dos departamentos que, junto con Bogotá, Distrito Capital, 
                 forman la República de Colombia. 
                 Su capital es San Juan de Pasto. Está ubicado en el extremo suroeste del país, 
                 en las regiones andina y pacífica,
                  limitando al norte con Cauca, al este con Putumayo, al sur con la República
-                 de Ecuador y al oeste con el océano Pacífico.
-                
-                Nariño presenta una geografía diversa y clima variado según las altitudes: caluroso 
-                en la planicie del Pacífico y frío en la parte montañosa
-                , donde vive la mayor parte de la población, situación que se repite en sentido norte-sur. 
-                El departamento es esencialmente agrícola y ganadero</p>
+                 de Ecuador y al oeste con el océano Pacífico.</p>
+        </div>
         </div>
       </section>
-      <footer class="bg-light text-center text-lg-start">
+      <footer id="contacto" class="bg-light text-center text-lg-start">
         <div class="text-center p-3" style="background-color: red;">
-          <a class="text-dark" href="https://mdbootstrap.com/">CÉSAR TEJADA</a><br>
-          <a class="text-dark" href="https://mdbootstrap.com/">09-09-2021</a><br>
-          <a class="text-dark" href="https://mdbootstrap.com/">LENGUAJE DE ULTIMA GENERACIÓN</a>
+          <a style="color: white" class="text-dark" >CESAR TEJADA</a><br>
+          <a style="color: white" class="text-dark" >09-09-2021</a><br>
+          <a style="color: white" class="text-dark" >LENGUAJE DE ULTIMA GENERACIÓN</a>
         </div>
       </footer>
+</body>
+</html>
